@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@300&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    /* max-width: 93%; */
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: 62.25%;
+}
+
+body{
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+}
+
+header{
+    /* align-items: center;
+    /* text-align: center; */
+    display: inline-block; 
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+header nav {
+    width: 100%;
+    /* z-index: 999; */
+    /* position: fixed; */
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+nav a{
+    margin: 5%;
+    padding: 1%;
+    font-family: 'Roboto Mono', monospace;
+    margin: 2%;
+    font-size: 0.7rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+nav .plan{
+    background-color:#FF764E ;
+    border: solid #FF764E;
+    border-radius: 10px;
+}
+
+nav .learn{
+    background-color:#5ED3EB ;
+    border: solid #5ED3EB;
+    border-radius: 10px;
+}
+
+nav .involved{
+    background-color:#FFCD69 ;
+    border: solid #FFCD69;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 5%;
+    /* margin: auto; */
+}
+
+h2, h3, p {
+    font-family: 'Roboto Mono', monospace;
+    margin: 2%;
+    font-size: 1rem;
+}
+
+header .headerdiv{
+    height: 30vh;
+    background-color: #fff;
+    text-align: center;
+    /* padding: 1%; */
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    /* margin: auto; */
+}
+
+header .headerdiv .headerimg img{
+    height: 100%;
+    width: auto;
+    border-radius: 50%;
+    
+    /* padding: 1%; */
+}
+
+header .headerdiv .headerimg,.headertext{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding: 5%; */
+    padding-bottom: 1%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+header .headerdiv .headertext{
+    margin-left: 3%;
+    margin-top: 4%;
+}
+/* header .headerdiv .headertext{
+    width: 80%;
+} */
+
+header .headerdiv .headertext .headersubtext, .headerpar{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+header .headerdiv .headertext .headersubtext, h2{
+    /* font-size: 0.7rem; */
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+header .headerdiv .headertext .headerpar, h3{
+    width: 100%;
+    margin: auto;
+}
+
+#About {
+    width: 90%;
+    align-items: center;
+    display: inline-block;
+}
+
+#About .aboutpar {
+    color: white;
+    padding: 1.5%;
+    background-color: #DDB9A3;
+}
+
+
+#About .aboutpar .top {
+    font-size: 0.9rem;
+}
+
+#About .aboutpar .bottom {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+#About .campfire {
+    display: BLOCK;
+    /* height: 30vh; */
+    font-size: 0.7rem;
+}
+
+#About .campfire img{
+    height: 13vh;
+    margin: 0;
+}
+
+
+#About .campfire, p {
+    display: BLOCK;
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+#About .camping {
+    display: BLOCK;
+    font-size: 0.7rem;
+}
+
+#About .camping, p {
+    display: BLOCK;
+    font-size: 0.7rem;
+    margin: 0;
+    margin-bottom: 3.5%;
+}
+
+#About .camping img{
+    height: 13vh;
+    margin: 0;
+}
+
+footer{
+    /* align-items: center;
+    /* text-align: center; */
+    display: inline-block; 
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 90%;
+    background-color: #F9E7DC;
+}
+
+footer img{
+    width: 1013.190px;
+    height: 120px;
+    object-fit: cover;
+    object-position: 25% 25%;
+    margin-bottom: 3.5%;
+}
+
+footer nav {
+    width: 100%;
+    /* z-index: 999; */
+    /* position: fixed; */
+    top: 0;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+  }
+
+
+
+
